@@ -1,3 +1,5 @@
+#image of passed test cases : https://github.com/vaibhav-3000/Python-INFYTQ-Vaibhav-Tiwari.wiki.git
+
 class Queue:
     def __init__(self,max_size):
 
@@ -137,3 +139,4 @@ print("Boxes in the stack after modification:")
 box_stack.display()
 print("Boxes in the queue:")
 result.display()
+
