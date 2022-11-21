@@ -53,7 +53,9 @@ class Queue:
         return msg
 
 """*********************Stack*****************************"""
+
 class Stack:
+
     def __init__(self,max_size):
         self.__max_size=max_size
         self.__elements=[None]*self.__max_size
@@ -121,7 +123,6 @@ def separate_boxes(box_stack):
         box_stack.push(st.pop())
     return q
 
-#Use different values for stack and test your program
 box_stack=Stack(8)
 box_stack.push("Red")
 box_stack.push("Magenta")
